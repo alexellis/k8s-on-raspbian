@@ -8,6 +8,10 @@ This repository holds the original tutorial for "Kubernetes on Raspbian" / Raspb
 
 [Kubernetes on (vanilla) Raspbian Lite](./GUIDE.md)
 
+Once you're up and running please share your clusters on Twitter with [@alexellisuk](https://twitter.com/alexellisuk).
+
+You can also join the OpenFaaS Slack community's dedicated channel for ARM and Raspberry Pi #arm-and-pi. Just email alex at openfaas dot com for your invitation.
+
 ### Attribution
 
 You're welcome to make use of this guide and to refer to it, but please do not copy it or pass it off as your own without giving attribution to the author(s). If you have suggestions or have found that some of the instructions have fallen out of date, then please see the Contributions section below on how to contribute.
