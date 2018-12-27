@@ -121,6 +121,14 @@ $ curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key a
 * You now have two new commands installed:
  * kubeadm - used to create new clusters or join an existing one
  * kubectl - the CLI administration tool for Kubernetes
+ 
+* Pre-pull images
+
+`kubeadm` now has a command to pre-pull the requisites Docker images needed to run a Kubernetes master, type in:
+
+```
+$ sudo kubeadm config images pull -v3
+```
 
 If using Weave Net
 
