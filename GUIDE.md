@@ -155,7 +155,8 @@ Note: This step can take a long time, even up to 15 minutes.
 Sometimes this stage can fail, if it does then you should patch the API Server to allow for a higher failure threshold during initialization around the time you see `[controlplane] wrote Static Pod manifest for component kube-apiserver to "/etc/kubernetes/manifests/kube-apiserver.yaml"`
 
 ```
-sudo sed -i 's/failureThreshold: 8/failureThreshold: 20/g' /etc/kubernetes/manifests/kube-apiserver.yaml
+sudo sed -i 's/failureThreshold: 8/failureThreshold: 20/g' /etc/kubernetes/manifests/kube-apiserver.yaml && \
+sed -i 's/initialDelaySeconds: [0-9]\+/initialDelaySeconds: 360/' /etc/kubernetes/manifests/kube-apiserver.yaml
 ```
 
 After the `init` is complete run the snippet given to you on the command-line:
