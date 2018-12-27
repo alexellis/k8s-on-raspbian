@@ -21,6 +21,8 @@ You're welcome to make use of this guide and to refer to it, but please do not c
 * ["Kubernetes on Raspbian" with Ansible](https://rak8s.io) by Chris Short
 * ["Kubernetes on Raspbian" for .NET Core / Windows developers](https://www.hanselman.com/blog/HowToBuildAKubernetesClusterWithARMRaspberryPiThenRunNETCoreOnOpenFaas.aspx) by Scott Hanselman
 * ["Kubernetes on Raspbian" broken-up into bash scripts with a custom laser-cut design](https://kubecloud.io/setup-a-kubernetes-1-9-0-raspberry-pi-cluster-on-raspbian-using-kubeadm-f8b3b85bc2d1) by Kasper Nissen
+* ["Kubernetes on Raspbian" with Packer](https://blog.codybunch.com/2018/01/05/OpenFaaS-on-Kubernetes-on-Raspberry-Pi/) by Cody Bunch
+* ["Kubernetes on Raspbian" adapted for HypriotOS](https://gist.github.com/elafargue/a822458ab1fe7849eff0a47bb512546f) by  Edouard Lafargue
 
 ### Contributions
 
