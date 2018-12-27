@@ -1,0 +1,10 @@
+maintainers:
+ - alexellis
+ - rgee0
+
+features:
+ - dco_check
+ - comments
+ - pr_description_required
+
+contributing_url: https://github.com/alexellis/k8s-on-raspbian/blob/master/README.md#contributions
