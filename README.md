@@ -1,12 +1,21 @@
 ## Kubernetes on Raspbian
 
-This repository holds the original tutorial for Kubernetes on Raspberry Pi by Alex Ellis
+This repository holds the original tutorial for "Kubernetes on Raspbian" / Raspberry Pi by Alex Ellis
+
+![](https://pbs.twimg.com/media/DKGfQ7bWkAAkGb9.jpg)
+
+### Start the guide
 
 [Kubernetes on (vanilla) Raspbian Lite](./GUIDE.md)
 
 ### Attribution
 
-You're welcome to make use of this guide and to refer to it, but please do not copy it or pass it off as your own without giving attribution to the author(s).
+You're welcome to make use of this guide and to refer to it, but please do not copy it or pass it off as your own without giving attribution to the author(s). If you have suggestions or have found that some of the instructions have fallen out of date, then please see the Contributions section below on how to contribute.
+
+#### Adaptations / derived works
+
+* ["Kubernetes on Raspbian" with Ansible](https://rak8s.io) by Chris Short
+* ["Kubernetes on Raspbian" for .NET Core / Windows developers](https://www.hanselman.com/blog/HowToBuildAKubernetesClusterWithARMRaspberryPiThenRunNETCoreOnOpenFaas.aspx) by Scott Hanselman
 
 ### Contributions
 
