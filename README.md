@@ -16,6 +16,18 @@ You can also join the OpenFaaS Slack community's dedicated channel for ARM and R
 
 You're welcome to make use of this guide and to refer to it, but please do not copy it or pass it off as your own without giving attribution to the author(s). If you have suggestions or have found that some of the instructions have fallen out of date, then please see the Contributions section below on how to contribute.
 
+#### Reader's clusters
+
+* [roncrivera's 4-node home-lab running OpenFaaS in a gun-case](https://twitter.com/roncrivera/status/1078552483029381121)
+* [Scott Hanselman's 6-node cluster running Kubernetes, OpenFaaS with the Pimoroni blinkt!](https://twitter.com/shanselman/status/953716434458247168) [Scott's cluster-selfie](https://twitter.com/alexellisuk/status/955568790061936640)
+* [Ken Fukuyama's Kubernetes cluster running OpenFaaS](https://twitter.com/kenfdev/status/954748775678976000) from Japan
+* [Karol Stępniewski's Asus Tinkerboard cluster running OpenFaaS and K8s](https://twitter.com/kars7e/status/948122096969818113)
+* [Bart Plasmeijer's K8s cluster](https://twitter.com/bartplasmeijer/status/933778520500731904)
+* [Burton Rheutan's cluster stashed away in a closet](https://twitter.com/_burtonr/status/1033745565379641344)
+* [Kevin Turcios' OpenFaaS cluster](https://twitter.com/kjturcios/status/1071253482441715713)
+
+Submit your cluster and description by creating a GitHub issue.
+
 #### Adaptations / derived works
 
 * ["Kubernetes on Raspbian" with Ansible](https://rak8s.io) by Chris Short
