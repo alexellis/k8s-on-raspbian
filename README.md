@@ -25,6 +25,12 @@ You're welcome to make use of this guide and to refer to it, but please do not c
 * [Bart Plasmeijer's K8s cluster](https://twitter.com/bartplasmeijer/status/933778520500731904)
 * [Burton Rheutan's cluster stashed away in a closet](https://twitter.com/_burtonr/status/1033745565379641344)
 * [Kevin Turcios' OpenFaaS cluster](https://twitter.com/kjturcios/status/1071253482441715713)
+* [Estelle Auberix' OpenFaaS and K8s cluster for ServerlessConf Paris](https://twitter.com/chussenot/status/960849791776419840)
+* [Davy's Kubernetes and OpenFaaS cluster](https://twitter.com/realDavyHua/status/1028862482259931137)
+* [Jaigouk Kim's OpenFaaS and K8s cluster with the Asus Tinkerboard](https://twitter.com/jaigouk/status/964529214564298756)
+* [Ram's 7-node homelab with OpenFaaS and Kubernetes](https://twitter.com/rprakashg/status/947347563912470528)
+* [David Muckle's OpenFaaS cluster](https://twitter.com/dvdmuckle/status/977297461210484737)
+* [Brian Moelk's battery-powered OpenFaaS cluster](https://twitter.com/brianmoelk/status/954459005149175809)
 
 Submit your cluster and description by creating a GitHub issue.
 
