@@ -313,16 +313,16 @@ The dashboard can be useful for visualising the state and health of your system,
 echo -n 'apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: ClusterRoleBinding
 metadata:
-  name: kubernetes-dashboard
+  name: kubernetes-dashboard-head
   labels:
-    k8s-app: kubernetes-dashboard
+    k8s-app: kubernetes-dashboard-head
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
   name: cluster-admin
 subjects:
 - kind: ServiceAccount
-  name: kubernetes-dashboard
+  name: kubernetes-dashboard-head
   namespace: kube-system' | kubectl apply -f -
 ```
 
