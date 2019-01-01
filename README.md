@@ -4,6 +4,8 @@ This repository holds the original tutorial for "Kubernetes on Raspbian" / Raspb
 
 ![](https://pbs.twimg.com/media/DKGfQ7bWkAAkGb9.jpg)
 
+This guide is part of a larger blog post: [Build your own bare-metal ARM cluster](https://blog.alexellis.io/build-your-own-bare-metal-arm-cluster/).
+
 ### Start the guide
 
 [Kubernetes on (vanilla) Raspbian Lite](./GUIDE.md)
