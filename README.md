@@ -31,6 +31,7 @@ You're welcome to make use of this guide and to refer to it, but please do not c
 * [Ram's 7-node homelab with OpenFaaS and Kubernetes](https://twitter.com/rprakashg/status/947347563912470528)
 * [David Muckle's OpenFaaS cluster](https://twitter.com/dvdmuckle/status/977297461210484737)
 * [Brian Moelk's battery-powered OpenFaaS cluster](https://twitter.com/brianmoelk/status/954459005149175809)
+* [Marcus Smallman' DIY Raspberry Pi Kubernetes Cluster](https://marcussmallman.io/2018/02/18/diy-rasberry-pi-kubernetes-cluster/)
 
 Submit your cluster and description by creating a GitHub issue.
 
