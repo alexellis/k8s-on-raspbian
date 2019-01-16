@@ -34,6 +34,7 @@ You're welcome to make use of this guide and to refer to it, but please do not c
 * [David Muckle's OpenFaaS cluster](https://twitter.com/dvdmuckle/status/977297461210484737)
 * [Brian Moelk's battery-powered OpenFaaS cluster](https://twitter.com/brianmoelk/status/954459005149175809)
 * [Marcus Smallman' DIY Raspberry Pi Kubernetes Cluster](https://marcussmallman.io/2018/02/18/diy-rasberry-pi-kubernetes-cluster/)
+* [Mathias Deremer-Accettone's Serverless sur Raspberry PI avec Docker Swarm et OpenFaas](https://blog.ineat-conseil.fr/2019/01/serverless-sur-raspberry-pi-avec-docker-swarm-et-openfaas-partie-1-installation-dopenfaas/)
 
 Submit your cluster and description by creating a GitHub issue.
 
