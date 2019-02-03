@@ -213,7 +213,7 @@ If you run into any issues with Weaveworks' networking then [flannel](https://gi
 Apply the Flannel driver on the master:
 
 ```
-$ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/c5d10c8/Documentation/kube-flannel.yml
+$ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
 
 On each node that joins including the master:
