@@ -33,3 +33,4 @@
 
 * Operating System and version (e.g. Linux, Windows, MacOS):
 
+* What ARM or Raspberry Pi board are you using?
