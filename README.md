@@ -8,6 +8,23 @@ This guide is part of a larger blog post: [Build your own bare-metal ARM cluster
 
 ### Start the guide
 
+Pick between `k3s` or `kubeadm`.
+
+#### Pick `k3s`
+
+My current recommendation is to use [k3s](https://k3s.io) from Rancher Labs.
+
+It's:
+
+* faster, uses less resources
+* well-maintained and ARMHF / ARM64 just works
+* still upstream / compliant Kubernetes
+* doesn't appear to run the complicated issues seen with `kubeadm`
+
+[Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
+
+#### Pick `kubeadm`
+
 [Kubernetes on (vanilla) Raspbian Lite](./GUIDE.md)
 
 Once you're up and running please share your clusters on Twitter with [@alexellisuk](https://twitter.com/alexellisuk).
