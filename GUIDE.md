@@ -7,6 +7,12 @@ This is part of a blog post [Serverless Kubernetes home-lab with your Raspberry 
 
 > Copyright disclaimer: Please provide a link to the post and give attribution to the author if you plan to use this content in your own materials.
 
+## Update - k3s and `docker`
+
+My current thinking is that [k3s](https://github.com/teamserverless/k8s-on-raspbian#pick-k3s) from Rancher Labs is a better option than `kubeadm` to bootstrap a cluster. Whilst both create a compliant Kubernetes cluster, k3s uses fewer resources, is faster and doesn't run into some of the timing issues we've seen in the community with `kubeadm`.
+
+You should also see my note on [installing Docker on Raspbian Buster](https://github.com/teamserverless/k8s-on-raspbian#fix-docker-for-raspbian-buster-optional)
+
 ## Pre-reqs:
 
 * You must use an RPi 2 or 3 for use with Kubernetes
