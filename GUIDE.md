@@ -15,7 +15,7 @@ You should also see my note on [installing Docker on Raspbian Buster](https://gi
 
 ## Pre-reqs:
 
-* You must use an RPi 2 or 3 for use with Kubernetes
+* To install and operate Kubernetes, you use only Raspberry Pi 3B, 3B+, or 4B
 * I'm assuming you're using wired ethernet (Wi-Fi also works, but it's not recommended)
 
 ## Master node setup
