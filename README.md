@@ -10,22 +10,30 @@ This guide is part of a larger blog post: [Build your own bare-metal ARM cluster
 
 Pick between `k3s` or `kubeadm`.
 
-#### Pick `k3s`
+#### Fix Docker for Raspbian Buster (optional)
 
-My current recommendation is to use [k3s](https://k3s.io) from Rancher Labs.
+Docker is currently *not supported* by Docker on Raspbian Buster, there are however work-arounds.
 
-It's:
+* Read: [How to fix Docker for Raspbian Buster](https://blog.alexellis.io/how-to-fix-docker-for-raspbian-buster/)
 
-* faster, uses less resources
+#### 1) Pick `k3s` (recommended)
+
+My current recommendation is to use [k3s](https://k3s.io) from Rancher Labs. It is normal Kubernetes and passes the conformance tests written by the CNCF. I'm yet to be convinced of why someone wouldn't use this for a hobbyist build and I've been pleasantly surprised by it.
+
+k3s is:
+
+* faster, and uses fewer resources
 * well-maintained and ARMHF / ARM64 just works
-* still upstream / compliant Kubernetes
-* doesn't appear to run the complicated issues seen with `kubeadm`
+* still normal, upstream, compliant Kubernetes
+* doesn't appear to run into some of the complicated issues we've seen with `kubeadm`
 
-[Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
+Start now: [Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
 
-#### Pick `kubeadm`
+#### 2) Or pick `kubeadm`  (advanced users)
 
-[Kubernetes on (vanilla) Raspbian Lite](./GUIDE.md)
+My current thinking is that only advanced users should attempt to install Kubernetes with `kubeadm`. Historically, it's had some unfortunate issues around timeouts and being slow.
+
+* Start the guide: [Kubernetes on (vanilla) Raspbian Lite](./GUIDE.md)
 
 Once you're up and running please share your clusters on Twitter with [@alexellisuk](https://twitter.com/alexellisuk).
 
