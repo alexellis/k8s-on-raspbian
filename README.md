@@ -56,6 +56,7 @@ You're welcome to make use of this guide and to refer to it, but please do not c
 * [Mathias Deremer-Accettone's Serverless sur Raspberry PI avec Docker Swarm et OpenFaas](https://blog.ineat-conseil.fr/2019/01/serverless-sur-raspberry-pi-avec-docker-swarm-et-openfaas-partie-1-installation-dopenfaas/)
 * [Daniel Llewellyn's three node Raspberry Pi Swarm](https://twitter.com/diddledan/status/1088759711745351682)
 * [Gareth Bradley's 6 node Raspberry Pi Kubernetes Cluster](https://garfbradaz.github.io/blog/2019/02/12/RaspberryPi-Cluster-Kubernetes.html)
+* [Andreas Muttscheller's Raspberry Pi OpenFaaS k3s cluster provisioned with Ansible](https://blog.codecentric.de/en/2019/08/serverless-functions-k3s-openfaas-raspberry-pi/)
 
 Submit your cluster and description by creating a GitHub issue.
 
