@@ -57,6 +57,7 @@ You're welcome to make use of this guide and to refer to it, but please do not c
 * [Daniel Llewellyn's three node Raspberry Pi Swarm](https://twitter.com/diddledan/status/1088759711745351682)
 * [Gareth Bradley's 6 node Raspberry Pi Kubernetes Cluster](https://garfbradaz.github.io/blog/2019/02/12/RaspberryPi-Cluster-Kubernetes.html)
 * [Andreas Muttscheller's Raspberry Pi OpenFaaS k3s cluster provisioned with Ansible](https://blog.codecentric.de/en/2019/08/serverless-functions-k3s-openfaas-raspberry-pi/)
+* [Ruan Bekker's K3s Setup with Golang and Traefik on a Raspberry Pi 4](https://sysadmins.co.za/running-k3s-on-the-raspberrypi-4/?pk_campaign=github-teamserverless)
 
 Submit your cluster and description by creating a GitHub issue.
 
