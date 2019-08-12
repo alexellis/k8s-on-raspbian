@@ -10,12 +10,6 @@ This guide is part of a larger blog post: [Build your own bare-metal ARM cluster
 
 Pick between `k3s` or `kubeadm`.
 
-#### Fix Docker for Raspbian Buster (optional)
-
-Docker is currently *not supported* by Docker on Raspbian Buster, there are however work-arounds.
-
-* Read: [How to fix Docker for Raspbian Buster](https://blog.alexellis.io/how-to-fix-docker-for-raspbian-buster/)
-
 #### 1) Pick `k3s` (recommended)
 
 My current recommendation is to use [k3s](https://k3s.io) from Rancher Labs. It is normal Kubernetes and passes the conformance tests written by the CNCF. I'm yet to be convinced of why someone wouldn't use this for a hobbyist build and I've been pleasantly surprised by it.
