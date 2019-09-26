@@ -276,12 +276,17 @@ spec:
   selector:
     app: markdownrender
 ---
-apiVersion: apps/v1beta1 # for versions before 1.6.0 use extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: markdownrender
+  labels:
+   app: markdownrender
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: markdownrender
   template:
     metadata:
       labels:
