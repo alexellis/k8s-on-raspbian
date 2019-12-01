@@ -72,6 +72,7 @@ Submit your cluster and description by creating a GitHub issue.
 * ["Kubernetes on Raspbian" broken-up into bash scripts with a custom laser-cut design](https://kubecloud.io/setup-a-kubernetes-1-9-0-raspberry-pi-cluster-on-raspbian-using-kubeadm-f8b3b85bc2d1) by Kasper Nissen
 * ["Kubernetes on Raspbian" with Packer](https://blog.codybunch.com/2018/01/05/OpenFaaS-on-Kubernetes-on-Raspberry-Pi/) by Cody Bunch
 * ["Kubernetes on Raspbian" adapted for HypriotOS](https://gist.github.com/elafargue/a822458ab1fe7849eff0a47bb512546f) by  Edouard Lafargue
+* [Make your very own Kubernetes cluster from Raspberry PI](https://medium.com/nycdev/k8s-on-pi-9cc14843d43) - unattributed, copy/paste from this guide/repository
 
 ### Contributions
 

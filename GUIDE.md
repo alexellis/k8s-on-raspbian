@@ -73,6 +73,12 @@ Change 100 for 101, 102, 103 etc.
 
 You may also need to make a reservation on your router's DHCP table so these addresses don't get given out to other devices on your network.
 
+* Enable `bridge-nf-call-iptables`
+
+```sh
+sudo sysctl net.bridge.bridge-nf-call-iptables=1
+```
+
 * Install Docker
 
 This installs 17.12 or newer.
