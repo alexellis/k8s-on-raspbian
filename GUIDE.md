@@ -78,8 +78,13 @@ You may also need to make a reservation on your router's DHCP table so these add
 This installs 17.12 or newer.
 
 ```
-$ curl -sSL get.docker.com | sh && \
+curl -sSL get.docker.com | sh
+
+# Add current user to docker group:
+
 sudo usermod pi -aG docker
+# Refresh groups
+
 newgrp docker
 ```
 
