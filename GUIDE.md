@@ -95,6 +95,12 @@ $ sudo dphys-swapfile swapoff && \
   sudo update-rc.d dphys-swapfile remove
 ```
 
+For Debian, also run:
+
+```sh
+sudo systemctl disable dphys-swapfile
+```
+
 This should now show no entries:
 
 ```

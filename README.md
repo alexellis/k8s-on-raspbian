@@ -12,16 +12,20 @@ Pick between `k3s` or `kubeadm`.
 
 #### 1) Pick `k3s` (recommended)
 
-My current recommendation is to use [k3s](https://k3s.io) from Rancher Labs. It is normal Kubernetes and passes the conformance tests written by the CNCF. I'm yet to be convinced of why someone wouldn't use this for a hobbyist build and I've been pleasantly surprised by it.
+My current recommendation is to use [k3s](https://k3s.io) from Rancher Labs. It is normal Kubernetes and passes the conformance tests written by the CNCF. I'm yet to be convinced of why someone wouldn't use this for a hobbyist build and I've been pleasantly surprised by it. Rancher Labs offers commercial support and k3s is GA, even more reason to use this option.
 
 k3s is:
 
-* faster, and uses fewer resources
+* faster, and uses fewer resources - 300MB for a server, 50MB for an "agent"
 * well-maintained and ARMHF / ARM64 just works
+* HA is available as of k3s 1.0 along with Kubernetes 1.16
 * still normal, upstream, compliant Kubernetes
 * doesn't appear to run into some of the complicated issues we've seen with `kubeadm`
 
-Start now: [Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
+Start now:
+
+* [Kubernetes Homelab with Raspberry Pi and k3sup](https://blog.alexellis.io/raspberry-pi-homelab-with-k3sup/)
+* [Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
 
 #### 2) Or pick `kubeadm`  (advanced users)
 
