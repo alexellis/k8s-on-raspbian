@@ -43,6 +43,7 @@ You're welcome to make use of this guide and to refer to it, but please do not c
 
 #### Reader's clusters
 
+* [Dino Fizzotti - Raspberry Pi Cluster Part 2: ToDo API running on Kubernetes with k3s](https://www.dinofizzotti.com/blog/2020-05-09-raspberry-pi-cluster-part-2-todo-api-running-on-kubernetes-with-k3s/)
 * [Jim Angel's Kubernetes cluster for testing unreleased alpha / beta k8s versions](https://twitter.com/JimmAngel/status/1265087793170178048)
 * [roncrivera's 4-node home-lab running OpenFaaS in a gun-case](https://twitter.com/roncrivera/status/1078552483029381121)
 * [Scott Hanselman's 6-node cluster running Kubernetes, OpenFaaS with the Pimoroni blinkt!](https://twitter.com/shanselman/status/953716434458247168) [Scott's cluster-selfie](https://twitter.com/alexellisuk/status/955568790061936640)
