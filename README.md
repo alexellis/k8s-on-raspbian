@@ -34,7 +34,7 @@ Start with a tutorial now (newest listed first):
 * [Kubernetes Homelab with Raspberry Pi and k3sup](https://blog.alexellis.io/raspberry-pi-homelab-with-k3sup/)
 * [Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
 
-#### 2) Or pick `kubeadm`  (advanced users)
+#### 2) Or pick `kubeadm` (advanced users)
 
 This guide is part of a larger blog post: [Build your own bare-metal ARM cluster](https://blog.alexellis.io/build-your-own-bare-metal-arm-cluster/).
 
