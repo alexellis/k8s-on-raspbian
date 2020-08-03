@@ -26,5 +26,8 @@
 - [ ] My code follows the code style of this project.
 - [ ] I have tested this change and prove it works
 - [ ] I've read the [CONTRIBUTION](https://github.com/alexellis/k8s-on-raspbian#contributions) guide
-- [ ] I have signed-off my commits with `git commit -s`
 
+## Required for merge:
+
+- [ ] I have signed-off my commits, fix with: `git commit --amend --signoff`
+- [ ] My PR only contains one commit, fix with: `git rebase -i HEAD~N`, where `N` = number of commits.
