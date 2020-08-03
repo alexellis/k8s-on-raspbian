@@ -1,10 +1,12 @@
 ## Kubernetes on Raspbian
 
-This repository holds the original tutorial for "Kubernetes on Raspbian" / Raspberry Pi by Alex Ellis
+This repository holds the "original tutorial" for "Kubernetes on Raspbian" by Alex Ellis using kubeadm. It also has a list of reader's clusters for your inspiration and Alex's newest work with k3s.
 
-![](https://pbs.twimg.com/media/DKGfQ7bWkAAkGb9.jpg)
+![My modest stack of RPis](https://miro.medium.com/max/1400/1*wDwPc6YYVbu1I8Ef9m5lBg.jpeg)
 
-This guide is part of a larger blog post: [Build your own bare-metal ARM cluster](https://blog.alexellis.io/build-your-own-bare-metal-arm-cluster/).
+If you'd like to read more about Kubernetes clusters, see Alex's write-up over the past 5 years of building with Docker and these tiny devices:
+
+[Five years of Raspberry Pi Clusters](https://medium.com/@alexellisuk/five-years-of-raspberry-pi-clusters-77e56e547875)
 
 ### Start the guide
 
@@ -22,14 +24,21 @@ k3s is:
 * still normal, upstream, compliant Kubernetes
 * doesn't appear to run into some of the complicated issues we've seen with `kubeadm`
 
-Start now:
+![k3sup diagram](https://github.com/alexellis/k3sup/raw/master/docs/k3sup-cloud.png)
 
+You may also enjoy k3sup ("ketchup") - a tool I built with the community to bootstrap k3s clusters over SSH. It has a simple `k3sup install / join` syntax and is available on GitHub. See more at: [https://k3sup.dev](https://k3sup.dev)
+
+Start with a tutorial now (newest listed first):
+
+* [Walk-through — install Kubernetes to your Raspberry Pi in 15 minutes](https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a)
 * [Kubernetes Homelab with Raspberry Pi and k3sup](https://blog.alexellis.io/raspberry-pi-homelab-with-k3sup/)
 * [Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
 
 #### 2) Or pick `kubeadm`  (advanced users)
 
-My current thinking is that only advanced users should attempt to install Kubernetes with `kubeadm`. Historically, it's had some unfortunate issues around timeouts and being slow.
+This guide is part of a larger blog post: [Build your own bare-metal ARM cluster](https://blog.alexellis.io/build-your-own-bare-metal-arm-cluster/).
+
+My current thinking is that only advanced users should attempt to install Kubernetes with `kubeadm`. Historically, it's had some unfortunate issues around timeouts and being slow, k3s makes installation and operation seamless.
 
 * Start the guide: [Kubernetes on (vanilla) Raspbian Lite](./GUIDE.md)
 
